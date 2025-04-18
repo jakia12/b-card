@@ -8,32 +8,21 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
       <div className="bg-white rounded-xl shadow-2xl overflow-hidden w-full max-w-[40rem] relative">
         {/* Grid Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 p-8 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 p-8 gap-8 place-items-center md:place-items-start">
           {/* Company Info */}
           <div className="flex flex-col items-center justify-center text-center">
             <img
               src="/images/logo.png"
               alt="Company Logo"
-              className="w-[220px]  mb-4"
+              className="w-[220px] mb-4"
             />
-            {/* <div className="flex items-center justify-center">
-              <h2 className="text-2xl font-bold text-gray-800">
-                Powered By{" "}
-                <img
-                  src="/images/savy.svg"
-                  alt="Company Logo"
-                  className="w-[20px]  mb-4"
-                />
-                Software
-              </h2>
-            </div> */}
             <p className="text-[#273c75] mt-1 text-[20px]">
               Innovate. Build. Grow.
             </p>
           </div>
 
           {/* Social Links */}
-          <div className="flex flex-col  space-y-4 mt-[50px] ml-[20px] border-l-2 border-[#273c75] pl-[30px]">
+          <div className="flex flex-col space-y-4 mt-[50px] ml-[20px] border-l-0 md:border-l-0 lg:border-l-2 lg:border-blue-500 pl-[30px]">
             <a
               href="#"
               className="text-[#273c75] hover:underline flex items-center text-[18px] gap-4 no-underline"
